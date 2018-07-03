@@ -1,0 +1,4 @@
+#   |     VARIABLE      |        VALUE                   | CACHE | TYPE    | DOCS | CACHE SETTING |
+SET(CUDA_HOST_COMPILER   /usr/bin/x86_64-linux-gnu-gcc-6  CACHE   FILEPATH  ""     FORCE)
+SET(CUDA_NVCC_FLAGS      --expt-relaxed-constexpr         CACHE   STRING    ""     FORCE)
+SET(WITH_TBB             ON                               CACHE   BOOL      ""     FORCE)
